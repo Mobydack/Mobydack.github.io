@@ -1,4 +1,8 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://mobydack.github.io'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Mobydack'
 theme = 'terminal'
+
+[params]
+contentTypeName = "posts"
+themeColor = "red"
