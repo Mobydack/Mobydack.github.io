@@ -1,8 +1,37 @@
-baseURL = 'http://mobydack.github.io'
 languageCode = 'en-us'
-title = 'Mobydack'
-theme = 'terminal'
+
+copyright = 'Mobydack'
+theme = 'hermit'
+
+[author]
+name = 'Kirill Zubov'
+
+[menu]
+[[menu.main]]
+  identifier = 'about'
+  name = 'About me'
+  title = 'About me'
+  url = '/about'
+[[menu.projects]]
+  identifier = 'projects'
+  name = 'Projects'
+  title = 'My projects'
+  url = '/projects'
 
 [params]
-contentTypeName = "posts"
-themeColor = "red"
+showMenuItems = 10
+contentTypeName = 'posts'
+images = ["static/avatar.jpg"]
+themeColor = '#1e1e1e'
+
+[[params.social]]
+name = 'github'
+url = 'https://github.com/Mobydack'
+
+[[params.social]]
+name = 'telegram'
+url = 'https://t.me/Mobydack'
+
+
+[params.logo]
+logoText = 'Mobydack'
